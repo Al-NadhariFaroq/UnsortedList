@@ -34,7 +34,7 @@ public class MyUnsortedListTest {
 	@Test
 	public void sizeCreationMultipleElementTest() {
 		UnsortedList<Integer> list = MyUnsortedList.of(1, 2, 3, 4);
-		assertEquals("4 elements", 4, list.size());
+		assertEquals("create a list elements", 4, list.size());
 	}
 	
 	@Test
